@@ -2,7 +2,7 @@ export const siteConfig = {
     name: "CozyBond",
     logo: "/logo.png",
     description: "The ultimate bond between you and your pet. Premium matching outfits designed for life together.",
-    currency: "USD",
+    currency: "AUD",
     language: "en",
     links: {
         instagram: "https://instagram.com/purrfectlife",

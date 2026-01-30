@@ -4,8 +4,8 @@ export const products: Product[] = [
     {
         id: "1",
         name: "Ultimate Bond Hoodie Set",
-        price: 89.00,
-        originalPrice: 125.00,
+        price: 129.00,
+        originalPrice: 189.00,
         description: "Crafted from premium heavy-weight fleece. A perfect match for you and your furry best friend. Designed for style, comfort, and unbreakable bonds.",
         images: [
             "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?q=80&w=800&auto=format&fit=crop",
@@ -19,8 +19,8 @@ export const products: Product[] = [
     {
         id: "2",
         name: "Midnight Dreams PJ Set",
-        price: 110.00,
-        originalPrice: 160.00,
+        price: 159.00,
+        originalPrice: 229.00,
         description: "Luxurious satin pajama set for the ultimate twinning experience. Silky smooth texture designed for peaceful nights together.",
         images: [
             "https://images.unsplash.com/photo-1591768793355-70ad043bc141?q=80&w=800&auto=format&fit=crop",
@@ -34,8 +34,8 @@ export const products: Product[] = [
     {
         id: "3",
         name: "Heritage Plaid Duo",
-        price: 75.00,
-        originalPrice: 110.00,
+        price: 109.00,
+        originalPrice: 159.00,
         description: "Classic flannel shirts in timeless buffalo plaid. Perfect for outdoor adventures and iconic photo moments.",
         images: [
             "https://images.unsplash.com/photo-1525253086316-d0c936c814f8?q=80&w=800&auto=format&fit=crop",
@@ -49,8 +49,8 @@ export const products: Product[] = [
     {
         id: "4",
         name: "Infinite Link Bracelet & Collar",
-        price: 59.00,
-        originalPrice: 85.00,
+        price: 89.00,
+        originalPrice: 129.00,
         description: "A minimalist connection. Premium leather collar for your pet and a matching bracelet for you. A symbol of your eternal bond.",
         images: [
             "https://images.unsplash.com/photo-1582791694145-23460649f98a?q=80&w=800&auto=format&fit=crop",
@@ -64,8 +64,8 @@ export const products: Product[] = [
     {
         id: "5",
         name: "Summer Breeze Hawaiian",
-        price: 68.00,
-        originalPrice: 95.00,
+        price: 99.00,
+        originalPrice: 139.00,
         description: "Vibrant botanical prints on breathable lightweight fabric. Make a splash at the beach or the cafe with this iconic duo set.",
         images: [
             "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=800&auto=format&fit=crop",
