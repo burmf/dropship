@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "TinyTot",
-    description: "Big love for tiny ones. Comfort and care for your baby.",
+    name: "CherishKind",
+    description: "Gentle care for new beginnings. Premium nursery essentials designed for safety and comfort.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#ADD8E6",
     },
     hero: {
-        label: "For Little Ones",
-        headline: "Big Love, Tiny Tot",
-        subheadline: "Safe, comfortable, and practical essentials for your baby.",
+        label: "Parenting Perfected",
+        headline: "Safety Wrapped in Love",
+        subheadline: "Expertly crafted baby gear that simplifies your life while keeping your little one secure and happy.",
         image: "/hero-bg.png"
     }
 }

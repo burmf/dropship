@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 import { useCart } from "@/store/useCart";
 import { SettingsSwitcher } from "./SettingsSwitcher";
 
+import { siteConfig } from "@/lib/site-config";
+
 export default function Header() {
     const [isScrolled, setIsScrolled] = useState(false);
     const { scrollY } = useScroll();
@@ -39,12 +41,19 @@ export default function Header() {
             <div className="container mx-auto px-6 flex items-center justify-between h-full">
                 {/* Logo */}
                 <Link href="/" className="relative z-10">
-                    <motion.h1
-                        className="text-2xl font-bold tracking-tighter"
+                    <motion.div
+                        className="flex items-center gap-2"
                         animate={{ scale: isScrolled ? 0.9 : 1 }}
                     >
-                        PREMIUM<span className="text-primary">.</span>
-                    </motion.h1>
+                        <img
+                            src={siteConfig.logo}
+                            alt={siteConfig.name}
+                            className="h-10 w-auto object-contain"
+                        />
+                        <span className="text-xl font-bold tracking-tighter hidden sm:block">
+                            {siteConfig.name.toUpperCase()}
+                        </span>
+                    </motion.div>
                 </Link>
 
                 {/* Desktop Nav */}

@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "LumiSkyn",
-    description: "Reveal your inner glow with professional at-home beauty gadgets.",
+    name: "GlowEthos",
+    description: "Advanced beauty technology for your ultimate glow. Professional-grade at-home spa equipment.",
     currency: "AUD",
     language: "en",
     links: {
@@ -8,17 +8,17 @@ export const siteConfig = {
         twitter: "https://twitter.com/lumiskyn",
     },
     company: {
-        name: "LumiSkyn Beauty Co.",
-        address: "7 Glow St, Gold Coast, QLD 4217, Australia",
-        email: "support@lumiskyn.com",
+        name: "GlowEthos Skincare Labs",
+        address: "Tokyo, Japan",
+        email: "info@glowethos.jp",
     },
     theme: {
         primaryColor: "#B76E79",
     },
     hero: {
-        label: "Beauty Tech",
-        headline: "Reveal Your Glow",
-        subheadline: "Professional at-home beauty gadgets for radiant skin.",
+        label: "Beauty Philosophy",
+        headline: "Reveal Your True Essence",
+        subheadline: "Experience clinical-grade results with our curated beauty technology collection.",
         image: "/hero-bg.png"
     }
 }

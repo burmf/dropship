@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "ContentStudio",
-    description: "Create like a pro. Essential gear for creators and influencers.",
+    name: "VisionForge",
+    description: "Tools for the digital elite. High-performance production gear for professional content creators.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#000000",
     },
     hero: {
-        label: "Creator Tools",
-        headline: "Create Like a Pro",
-        subheadline: "Essential lighting and tripod gear for content creators.",
+        label: "Creator Excellence",
+        headline: "Forge Your Vision",
+        subheadline: "Professional lighting, audio, and stabilization tools designed to set your content apart.",
         image: "/hero-bg.png"
     }
 }

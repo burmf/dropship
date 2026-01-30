@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "ShadeShift",
-    description: "Style that adapts. Photochromic and retro sunglasses.",
+    name: "PrismOptix",
+    description: "Style defined by light. Advanced adaptive eyewear for the modern explorer.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#D2691E",
     },
     hero: {
-        label: "Adaptive Style",
-        headline: "Style that Adapts",
-        subheadline: "Photochromic and retro sunglasses for the modern adventurer.",
+        label: "Optical Evolution",
+        headline: "See Beyond the Horizon",
+        subheadline: "Experience superior clarity and timeless design with our photochromic and polarized collections.",
         image: "/hero-bg.png"
     }
 }

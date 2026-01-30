@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "CaseCanvas",
-    description: "Art in your hand. Premium minimalist cases for iPhone and Android.",
+    name: "MuseShell",
+    description: "Art in your hand. Premium minimalist cases for iPhone and Android. Protective engineering meets aesthetic design.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#FFC0CB",
     },
     hero: {
-        label: "New Collection",
-        headline: "Art in Your Hand",
-        subheadline: "Premium minimalist cases for iPhone and Android. Protect your device with style.",
+        label: "The Art of Protection",
+        headline: "Sculpted for Your Device",
+        subheadline: "Where military-grade protection meets minimalist elegance. Designed for those who appreciate the finer details.",
         image: "/hero-bg.png"
     }
 }

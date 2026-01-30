@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "AmbientHome",
-    description: "Set the mood. Aesthetic lighting and decor for your sanctuary.",
+    name: "LunaSense",
+    description: "Transform your sanctuary. High-end ambient lighting and decor for the modern home.",
     currency: "AUD",
     language: "en",
     links: {
@@ -8,17 +8,17 @@ export const siteConfig = {
         twitter: "https://twitter.com/ambienthome",
     },
     company: {
-        name: "AmbientHome Decor",
-        address: "77 Sunset Blvd, Melbourne, VIC 3000, Australia",
-        email: "hello@ambienthome.com",
+        name: "LunaSense Design Studio",
+        address: "Tokyo, Japan",
+        email: "hello@lunasense.jp",
     },
     theme: {
         primaryColor: "#FF4500",
     },
     hero: {
-        label: "Ambient Living",
-        headline: "Set the Mood",
-        subheadline: "Aesthetic lighting and decor to transform your sanctuary.",
+        label: "Ambient Design",
+        headline: "Illuminate Your Emotion",
+        subheadline: "Artistic lighting solutions that transform any space into a sanctuary of light.",
         image: "/hero-bg.png"
     }
 }

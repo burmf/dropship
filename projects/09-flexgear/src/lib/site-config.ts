@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "FlexGear",
-    description: "Empower your movement. Portable fitness equipment for home and travel.",
+    name: "ApexMove",
+    description: "Peak physical performance. Professional-grade portable fitness equipment for the relentless.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#DC143C",
     },
     hero: {
-        label: "Train Anywhere",
-        headline: "Empower Movement",
-        subheadline: "Portable fitness gear designed for your active lifestyle.",
+        label: "Ultimate Performance",
+        headline: "Redefine Your Limits",
+        subheadline: "Transform any space into your arena with engineered fitness gear that moves with you.",
         image: "/hero-bg.png"
     }
 }

@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "SoundSphere",
-    description: "Immerse in pure sound with our premium wireless audio lineup.",
+    name: "PureEcho",
+    description: "Immerse in pure sound. Professional-grade wireless audio lineup for the ultimate listening experience.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#1A1A1A",
     },
     hero: {
-        label: "Pure Audio",
-        headline: "Sound Defined",
-        subheadline: "Experience music like never before with our premium wireless headphones.",
+        label: "Sonic Purity",
+        headline: "Hear Every Detail",
+        subheadline: "Engineered for clarity and comfort. Elevate your auditory journey with PureEcho high-fidelity equipment.",
         image: "/hero-bg.png"
     }
 }

@@ -1,6 +1,6 @@
 export const siteConfig = {
-    name: "WristTech",
-    description: "Smart living on your wrist. Advanced fitness tracking and notifications.",
+    name: "VitalFlow",
+    description: "Sync with your rhythm. Advanced health tracking and smart connectivity on your wrist.",
     currency: "AUD",
     language: "en",
     links: {
@@ -16,9 +16,9 @@ export const siteConfig = {
         primaryColor: "#32CD32",
     },
     hero: {
-        label: "Smart Living",
-        headline: "Future on Wrist",
-        subheadline: "Stay connected and healthy with our advanced smartwatches.",
+        label: "Intelligent Wellness",
+        headline: "Master Your Momentum",
+        subheadline: "Your health, your pace. Stay ahead with real-time vitals and seamless technology integration.",
         image: "/hero-bg.png"
     }
 }

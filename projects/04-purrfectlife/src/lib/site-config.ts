@@ -1,24 +1,25 @@
 export const siteConfig = {
-    name: "PurrfectLife",
-    description: "Joy for your furry friends. Premium pet accessories and essentials.",
-    currency: "AUD",
+    name: "CozyBond",
+    logo: "/logo.png",
+    description: "The ultimate bond between you and your pet. Premium matching outfits designed for life together.",
+    currency: "USD",
     language: "en",
     links: {
         instagram: "https://instagram.com/purrfectlife",
         twitter: "https://twitter.com/purrfectlife",
     },
     company: {
-        name: "PurrfectLife Pty Ltd",
-        address: "88 Paw Park, Perth, WA 6000, Australia",
-        email: "support@purrfectlife.com",
+        name: "CozyBond Collective",
+        address: "Tokyo, Japan",
+        email: "support@cozybond.jp",
     },
     theme: {
         primaryColor: "#FFA500",
     },
     hero: {
-        label: "Pet Essentials",
-        headline: "Joy for Pets",
-        subheadline: "Premium accessories and essentials for your furry friends.",
+        label: "For You & Your Best Friend",
+        headline: "Matching Style, Unbreakable Bond",
+        subheadline: "Premium matching sets for pets and their owners. Because your best friend deserves more than just a toy.",
         image: "/hero-bg.png"
     }
 }
