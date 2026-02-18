@@ -43,15 +43,15 @@ export const products: Product[] = [
         category: "インテリア照明",
         tags: ["360度回転", "PLA素材", "ギフト推奨"],
         sizes: [
-            { name: "12cm", price: 0 },
-            { name: "14cm", price: 1000 },
-            { name: "18cm", price: 2000 }
+            { name: "12cm", price: 5800 },
+            { name: "15cm", price: 6980 },
+            { name: "18cm", price: 7980 }
         ]
     },
     {
         id: "yoru-005",
         name: "サンセット プロジェクションランプ",
-        price: 3200,
+        price: 6980,
         description: "1台でサンセット、レインボー、サン、サンセットレッドの4つの投影モードを楽しめる、多機能プロジェクションランプ。調整可能なヘッドにより、あらゆる角度から空間を彩ることができます。堅牢なアイアンシェルとPC素材のシェードを採用し、耐久性と美しさを両立。ライブ配信や写真撮影の背景としても最適です。",
         images: [
             "/products/sunset/3_1622531341560.jpg",

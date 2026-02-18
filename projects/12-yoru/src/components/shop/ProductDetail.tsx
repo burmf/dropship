@@ -23,13 +23,19 @@ export default function ProductDetail({ product }: ProductDetailProps) {
     const [quantity, setQuantity] = useState(1);
 
     const price = selectedSize ? selectedSize.price : product.price;
+    // selectedSize.price が 0 の場合は product.price を使う（差額ロジックからの移行過渡期用）
+    // ただし今回はデータ側も絶対値にするので、単純に selectedSize.price を優先する形で良いが、
+    // 安全のため selectedSize.price > 0 の場合のみ採用するロジックにするか、
+    // あるいはデータ側を確実に修正することを前提に単純な三項演算子にする。
+    // ここではデータ修正とセットで行うため、単純に selectedSize.price を採用する。
+    const displayPrice = selectedSize?.price || product.price;
 
     const handleAddToCart = () => {
         for (let i = 0; i < quantity; i++) {
             addItem(product, {
                 size: selectedSize?.name,
                 color: selectedColor || selectedVariant?.name,
-                price: selectedSize?.price
+                price: selectedSize?.price || product.price
             });
         }
     };
@@ -162,7 +168,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
                                                 : "bg-white/5 text-white border-white/10 hover:border-white/30"
                                                 }`}
                                         >
-                                            {size.name} (+¥{(size.price - product.price).toLocaleString()})
+                                            {size.name} (¥{size.price.toLocaleString()})
                                         </button>
                                     ))}
                                 </div>
