@@ -40,8 +40,8 @@ export default function Home() {
               <div className="relative aspect-square w-full max-w-lg mx-auto">
                 <div className="absolute inset-0 bg-amber-500/10 blur-[100px] rounded-full animate-pulse" />
                 <Image
-                  src="/products/moon/showcase.png"
-                  alt="Floating Moon Lamp Collection"
+                  src="/products/moon/main.png"
+                  alt="Rotating Moon Lamp Collection"
                   fill
                   className="object-contain relative z-10"
                 />
@@ -51,11 +51,11 @@ export default function Home() {
               <div>
                 <span className="text-amber-500 text-sm font-bold tracking-widest uppercase mb-4 block">Technology & Design</span>
                 <h2 className="text-3xl md:text-5xl font-light leading-tight mb-6">
-                  重力から解き放たれた、<br />
-                  <span className="font-serif italic italic text-amber-500/90">Eternal Glow.</span>
+                  静寂に包まれた、<br />
+                  <span className="font-serif italic italic text-amber-500/90">Eternal Rotation.</span>
                 </h2>
                 <p className="text-gray-400 leading-relaxed text-lg">
-                  最新の磁気浮上技術を採用。ベースの上で音もなく浮かび、ゆっくりと自転を続ける月。その神秘的な姿は、眺めているだけで日常のストレスを忘れさせてくれます。
+                  最新の3Dプリント技術で月のクレーターまで精巧に再現。木製ベースの上で360度ゆっくりと回転する月。その神秘的な姿は、眺めているだけで日常のストレスを忘れさせてくれます。
                 </p>
               </div>
 
