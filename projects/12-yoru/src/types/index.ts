@@ -22,6 +22,7 @@ export interface Product {
     sizes?: { name: string; price: number }[];
     colors?: string[];
     variants?: { name: string; imageUrl: string }[];
+    badge?: string;
 }
 
 export interface CartItem extends Product {

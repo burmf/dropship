@@ -14,6 +14,9 @@ export const products: Product[] = [
         ],
         category: "ムードライト",
         tags: ["ベストセラー", "幻想クリスタル", "ギフト推奨"],
+        rating: 4.9,
+        reviewCount: 128,
+        badge: "Best Seller",
         variants: [
             { name: "静寂の銀河", imageUrl: "/products/crystal/4_2adb4c2c-86a6-4f0f-b2dc-2a32e5549923.jpg" },
             { name: "孤高の土星", imageUrl: "/products/crystal/5_8f792fda-535a-4c79-a90e-01553249fc8f.jpg" },
@@ -32,7 +35,10 @@ export const products: Product[] = [
             "/products/volcano/13_23d63683-64f1-419a-88d3-5c07f86dfd2c.jpg"
         ],
         category: "アロマ・癒やし",
-        tags: ["超音波式", "アロマミスト", "至福のひととき"]
+        tags: ["超音波式", "アロマミスト", "至福のひととき"],
+        rating: 4.7,
+        reviewCount: 85,
+        badge: "New Arrival",
     },
     {
         id: "yoru-004",
@@ -42,6 +48,9 @@ export const products: Product[] = [
         images: ["/products/moon/main.png"],
         category: "インテリア照明",
         tags: ["360度回転", "PLA素材", "ギフト推奨"],
+        rating: 4.8,
+        reviewCount: 215,
+        badge: "Popular",
         sizes: [
             { name: "12cm", price: 5800 },
             { name: "15cm", price: 6980 },
@@ -61,7 +70,9 @@ export const products: Product[] = [
             "/products/sunset/7_1622531341837.jpg"
         ],
         category: "ムードライト",
-        tags: ["4モード搭載", "角度調整自在", "撮影背景"]
+        tags: ["4モード搭載", "角度調整自在", "撮影背景"],
+        rating: 4.6,
+        reviewCount: 94,
     }
 ];
 
